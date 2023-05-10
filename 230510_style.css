@@ -1,0 +1,20 @@
+*{
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+div{
+    background-color: bisque;
+}
+
+p.blue{ /*p이면서 class명이 blue인 것*/
+    color: cornflowerblue;
+}
+
+.blue.dark{ /*class명이 blue이면서 dark인 것(class="blue dark"인데)*/
+    color: crimson;
+}
+
+p.blue.dark{
+    color: blueviolet;
+}
